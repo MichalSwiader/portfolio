@@ -203,23 +203,25 @@ background: repeating-linear-gradient(
 #guide-nav {
 -webkit-box-shadow: 0px -2px 4px 0px rgba(138,138,138,0.51);
 -moz-box-shadow: 0px -2px 4px 0px rgba(138,138,138,0.51);
-box-shadow: 0px -2px 4px 0px rgba(138,138,138,0.51);	
+box-shadow: 0px -2px 4px 0px rgba(138,138,138,0.51);
 }
 
 #guide-nav h2 {
 	font-size: 3vmax;
 	text-transform: uppercase;
 	text-align: center;
-	margin: 0vmax 30% 1vmax 30%;
+	margin: 0vmax 35% 1vmax 35%;
 	padding: 3vmax 3vmax 1vmax 3vmax;
 	border-bottom: 1px solid #02252F;
 	text-shadow: 1px 1px 5px gray;	
 }
 
 #guide-nav-outer {
-	margin: 0vmax 30% 3vmax 30%;
+	margin: 0vmax 35% 3vmax 35%;
 	position: relative;
-	height: 20vmax;
+	height: 10vmax;
+	border-bottom: 1px solid #02252F;
+	
 /*	font-size: 0;*/
 }
 
@@ -227,7 +229,7 @@ box-shadow: 0px -2px 4px 0px rgba(138,138,138,0.51);
 	width: inherit;
 	list-style: none;
 	position: relative;
-	margin: 0 20%;
+	margin: 0 5%;
 	padding: 0;
 }
 
@@ -235,11 +237,12 @@ box-shadow: 0px -2px 4px 0px rgba(138,138,138,0.51);
 	display: inline-block;
 }
 
-.guide-nav.section {
-	padding: 1vmax;
+.guide-nav.section a, .guide-nav.section h3{
+	padding: 0.5vmax;
 	padding-left: 0;
-	width: 6vmax;
+	width: 6.5vmax;
 	text-transform: uppercase;
+	font-size: 1vmax;
 }
 
 .guide-nav a {
@@ -248,7 +251,8 @@ box-shadow: 0px -2px 4px 0px rgba(138,138,138,0.51);
 }
 
 .guide-nav.article {
-	padding: 0.2vmax;
+	padding: 0.1vmax;
+	font-size: 1vmax;
 }
 
 .guide-nav.article a {
