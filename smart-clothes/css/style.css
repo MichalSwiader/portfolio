@@ -5,24 +5,56 @@
 	box-sizing: border-box;
 	-webkit-font-smoothing: antialiased;
 	font-family: 'Lato', sans-serif;
-	border: 1px solid black;
+/*	border: 1px solid black;*/
 }
 
 main {
+	position: relative;
 	width: 100%;
+	margin-top: 5%;
+	margin-bottom: 10px;
 	background-color: #fff;
 	color: #000;
-	padding: 4vmax 233px;
 	margin-bottom: 10px;
-	-webkit-box-shadow: 0px 5px 10px 0px rgba(138,138,138,1);
-	-moz-box-shadow: 0px 5px 10px 0px rgba(138,138,138,1);
-	box-shadow: 0px 5px 10px 0px rgba(138,138,138,1);
+/*
+-webkit-box-shadow: 0px 0px 83px 12px rgba(138,138,138,0.51);
+-moz-box-shadow: 0px 0px 83px 12px rgba(138,138,138,0.51);
+box-shadow: 0px 0px 83px 12px rgba(138,138,138,0.51);
+*/
+	
+}
+.content {
+	background-color: #fff;
+	width: 80%;
+	margin: 1vmax 10%;
+	padding: 1vmax;
+	-webkit-box-shadow: 0px 0px 83px 12px rgba(138,138,138,0.51);
+-moz-box-shadow: 0px 0px 83px 12px rgba(138,138,138,0.51);
+box-shadow: 0px 0px 83px 12px rgba(138,138,138,0.51);
 }
 
-h2 {
-	font-size: 1.8vmax;
+
+.section-header {
+	top: 1vmax;
+	position: relative;
+	text-align: center;
+	font-size: 4vmax;
 	text-transform: uppercase;
-	padding: 21px 21px 21px 34px;
+	border-bottom: 1px solid #02252F;
+	margin: 0vmax 2vmax;
+	padding: 2vmax 0 1vmax 0;
+}
+
+.section-content-outer {
+	padding: 4vmax;	
+}
+
+.section-content-header {
+	text-align: center;
+	font-size: 2vmax;
+	margin: 0 40%;
+	padding: 1vmax 0 0.5vmax 0;
+	border-bottom: 1px solid #02252F;
 }
 
 /*General styles STOP*/
@@ -111,24 +143,26 @@ background: repeating-linear-gradient(
 	box-shadow: 0px 5px 10px 0px rgba(138,138,138,1);	
 }
 
-#main-header-title {
+#main-header h1 {
 	height: 20%;
 	position: relative;
 	left: 50%;
 	right: 50%;
+	width: auto;
 	transform: translate(-50%,-50%);
-	top:50%;
+	top: 50%;
 	font-size: 6vmax;
 	text-shadow: 1px 1px 1px gray;
-	width: 100%;
-	text-align: center;
 	padding: 0 233px;
 	
 }
 
-#main-header-title span {
+#main-header h2 {
+	position: relative;
+	top: 35%;
 	font-size: 2.5vmax;
-	width: 100%;
+	width: auto;
+	border: none;
 }
 
 /*Header styles STOP*/
