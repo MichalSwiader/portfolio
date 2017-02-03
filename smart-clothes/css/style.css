@@ -159,6 +159,10 @@ nav#menu {
 
 /*Nav guide START*/
 
+#guide-nav {
+	padding-top: 5vmax;
+}
+
 #guide-nav h2 {
 	font-size: 3vmax;
 }
@@ -186,6 +190,7 @@ box-shadow: 1px 1px 15px 5px rgba(138,138,138,0.51);
 	width: 25%;
 	text-transform: uppercase;
 	font-size: 1.3vmax;
+	font-weight: 300;
 	line-height: 3vmax;
 	text-shadow: 0.5px 0.5px 0.5px lightgray;
 	display: inline-block;
