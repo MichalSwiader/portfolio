@@ -115,6 +115,7 @@ nav#menu {
 	color: #fff;
 	text-transform: uppercase;
 	text-align: center;
+	background-position: 0 20%;
 }
 
 #main-header h1 {
@@ -161,6 +162,7 @@ nav#menu {
 
 #guide-nav {
 	padding-top: 5vmax;
+	padding-bottom: 0;
 }
 
 #guide-nav h2 {
