@@ -9,34 +9,30 @@
 }
 
 main {
-		-webkit-box-shadow: 0px -2px 4px 0px rgba(138,138,138,0.51);
+	width: 100%;
+	-webkit-box-shadow: 0px -2px 4px 0px rgba(138,138,138,0.51);
 	-moz-box-shadow: 0px -2px 4px 0px rgba(138,138,138,0.51);
 	box-shadow: 0px -2px 4px 0px rgba(138,138,138,0.51);
+	padding-bottom: 1vmax;
 }
+
 .section {
-	width: 70%;
-	margin: 0 15% 0 15%;
-	top: 6vmax;
+	width: 100%;
 	padding: 1vmax;
-	
+	font-size: 1vmax;
+	text-align: center;
+	-webkit-box-shadow: 0px 2px 4px 0px rgba(138,138,138,0.51);
+	-moz-box-shadow: 0px 2px 4px 0px rgba(138,138,138,0.51);
+	box-shadow: 0px 2px 4px 0px rgba(138,138,138,0.51);
 }
 
 
 .section-header {
 	text-align: center;
-	font-size: 3vmax;
+	font-size: 2vmax;
 	text-transform: uppercase;
-	margin: 0 15% 0 15%;
-	padding: 0 3vmax 1.5vmax 3vmax;
-	top: 3vmax;
-	text-shadow: 1px 1px 5px gray;
-	background: none;
-	
-}
-
-.section-content-outer {
-	padding: 1vmax 5vmax 3vmax 5vmax;
-	
+	padding: 1vmax 0 2vmax 0;
+	text-shadow: 1px 1px 5px gray;	
 }
 
 .section-content-header {
@@ -94,19 +90,10 @@ nav#menu {
 	font-size: 1vmax;
 	color: #02252F;
 	padding: 1vmax;
-	transition: all 0.5s;
+	transition: all 0.1s;
 }
 
 .menu-list-item:hover {
-/*
-background: repeating-linear-gradient(
-  to right,
-  	#00003C,
-  #00003C 20px,
-  #fff 1px,
-  #00003C 21px
-); 
-*/
 	background-color: #02252F;
 	color: #fff;
 	cursor: pointer;
@@ -128,7 +115,6 @@ background: repeating-linear-gradient(
 	color: #fff;
 	text-transform: uppercase;
 	text-align: center;
-	margin-bottom: 3vmax;	
 }
 
 #main-header h1 {
@@ -158,63 +144,62 @@ background: repeating-linear-gradient(
 /*Border styles START*/
 
 #border {
-	-webkit-box-shadow: 0px 0px 0px 0px;
-	-moz-box-shadow: 0px 0px 0px 0px;
+	padding-top: 3vmax;
 	box-shadow: 0px 0px 0px 0px;
-	font-size: 1.5vmax;
-	font-weight: 300;
-	margin: 2vmax 20%;
-	text-align: center;
-	width: 60%;
-	line-height: 1.5;
-	
-	
 }
+
+#border div {
+	font-weight: 300;
+	width: 60%;
+	margin: 0 20%;
+	line-height: 2vmax;
+}
+
 /*Border styles START*/
 
 /*Nav guide START*/
 
-#guide-nav {
-	-webkit-box-shadow: 0px -2px 4px 0px rgba(138,138,138,0.51);
-	-moz-box-shadow: 0px -2px 4px 0px rgba(138,138,138,0.51);
-	box-shadow: 0px -2px 4px 0px rgba(138,138,138,0.51);
-	margin-bottom: 2vmax;
-	padding: 1vmax;
-}
-
 #guide-nav h2 {
 	font-size: 3vmax;
-	text-transform: uppercase;
-	text-align: center;
-	margin: 0 35%;
-	padding: 1.5vmax 3vmax;
-	text-shadow: 1px 1px 5px gray;	
-}
-
-#guide-nav-outer {
-	margin: 0 35%;
-	position: relative;
-	border-top: 1px solid #02252F;
-	border-bottom: 1px solid #02252F;
 }
 
 .guide-nav-list {
-	width: inherit;
-	height: inherit;
+	margin: 0 30%;
+	position: relative;
+/*
+	border-top: 1px solid #02252F;
+	border-bottom: 1px solid #02252F;
+*/
 	list-style: none;
 	position: relative;
 	padding: 0;
 	text-align: center;
-	padding: 0.5vmax;
+	font-size: 0;
+/*
+	-webkit-box-shadow: 1px 1px 15px 5px rgba(138,138,138,0.51);
+-moz-box-shadow: 1px 1px 15px 5px rgba(138,138,138,0.51);
+box-shadow: 1px 1px 15px 5px rgba(138,138,138,0.51);
+*/
 }
 
 .guide-nav-item {
+	width: 25%;
 	text-transform: uppercase;
-	margin: 0 30%;
+	font-size: 1.3vmax;
+	line-height: 3vmax;
+	text-shadow: 0.5px 0.5px 0.5px lightgray;
+	display: inline-block;
+/*	border-bottom: 1px solid #02252F;*/
+/*
+	-webkit-box-shadow: 0px 2px 4px 0px rgba(138,138,138,0.51);
+	-moz-box-shadow: 0px 2px 4px 0px rgba(138,138,138,0.51);
+	box-shadow: 0px 2px 4px 0px rgba(138,138,138,0.51);
+*/
 }
 
 .guide-nav-item:hover a {
-	border: 1px solid #02252F;	
+	background-color: #02252F;
+	color: #fff;
 }
 
 .guide-nav-item a {
@@ -222,10 +207,9 @@ background: repeating-linear-gradient(
 	color: #02252F;
 	text-decoration: none;
 	padding: 0.5vmax;
-	border: 1px solid #fff;
-} 
+	transition: all 0.1s;
 
-
+}
 
 /*Nav #guide STOP*/
 
@@ -233,21 +217,23 @@ background: repeating-linear-gradient(
 
 /*Beginning Section START*/
 
-#begin {
+.section.begin {
 	position: relative;
 	background-image: url("../images/header.jpg");
 	background-size: cover;
+	height: 35vmax;
 	
 }
 
 #begin .section-header {
 	color: #fff;
-	transition: all 0.5s;
+	transition: all 0.5s;			
+	margin: 0;
+	padding: 0;
 }
 #begin:hover .section-header {
 	transform: translateY(-6vmax);
 	color: #000;
 }
 
-/*Main Guide START*/
 
