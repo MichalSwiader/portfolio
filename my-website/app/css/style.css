@@ -1,0 +1,6 @@
+body {
+  background-color: red; }
+  body section {
+    background-color: blue;
+    width: 600px;
+    height: 100px; }

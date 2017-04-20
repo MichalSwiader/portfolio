@@ -1,0 +1,14 @@
+$primary-color: red;
+
+$secondary-color: blue;
+
+body {
+	background-color: $primary-color;
+	
+	section {
+		background-color: $secondary-color;
+		width: 600px;
+		height: 100px;
+	}
+	
+}
